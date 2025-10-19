@@ -1,0 +1,6 @@
+use university;
+CREATE TABLE blocked_tokens (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    token VARCHAR(500) NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);

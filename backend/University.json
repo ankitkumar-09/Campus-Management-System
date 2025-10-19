@@ -1,0 +1,150 @@
+{
+  "v": 8,
+  "name": "University",
+  "folders": [],
+  "requests": [
+    {
+      "v": "14",
+      "name": "Admin login",
+      "method": "POST",
+      "endpoint": "http://localhost:3000/admin/signin",
+      "params": [
+        {
+          "key": "token",
+          "value": "686f771199cf3c944022dafebb783203eda8542aac05ab3d2ad8b62858ce13f85d8e07d98021d420dec4ff03",
+          "active": true,
+          "description": ""
+        }
+      ],
+      "headers": [],
+      "preRequestScript": "",
+      "testScript": "",
+      "auth": {
+        "authType": "inherit",
+        "authActive": true
+      },
+      "body": {
+        "contentType": "application/json",
+        "body": "{\n  \"email\":\"satya@gmail.com\",\n  \"password\":\"deepasingh\"\n}"
+      },
+      "requestVariables": [],
+      "responses": {}
+    },
+    {
+      "v": "14",
+      "name": "add faculty",
+      "method": "POST",
+      "endpoint": "http://localhost:3000/admin/add-faculty",
+      "params": [
+        {
+          "key": "token",
+          "value": "686f771199cf3c944022dafebb783203eda8542aac05ab3d2ad8b62858ce13f85d8e07d98021d420dec4ff03",
+          "active": true,
+          "description": ""
+        }
+      ],
+      "headers": [],
+      "preRequestScript": "",
+      "testScript": "",
+      "auth": {
+        "authType": "inherit",
+        "authActive": true
+      },
+      "body": {
+        "contentType": "application/json",
+        "body": "{\n  \"name\":\"Satya Prakash Singh\",\n  \"email\":\"satyasingh159357@gmail.com\"\n}"
+      },
+      "requestVariables": [],
+      "responses": {}
+    },
+    {
+      "v": "14",
+      "name": "add studnet",
+      "method": "POST",
+      "endpoint": "http://localhost:3000/admin/add-student",
+      "params": [
+        {
+          "key": "token",
+          "value": "686f771199cf3c944022dafebb783203eda8542aac05ab3d2ad8b62858ce13f85d8e07d98021d420dec4ff03",
+          "active": true,
+          "description": ""
+        }
+      ],
+      "headers": [],
+      "preRequestScript": "",
+      "testScript": "",
+      "auth": {
+        "authType": "inherit",
+        "authActive": true
+      },
+      "body": {
+        "contentType": "application/json",
+        "body": "{\n  \"name\": \"Satya Prakash Singh\",\n  \"email\": \"satyasingh159357@gmail.com\",\n  \"roll_no\": 1001,\n  \"course\": \"B.Tech\",\n  \"branch\": \"Computer Science\",\n  \"semester\": 5,\n  \"year\": 2025,\n  \"dob\": \"2004-07-15\",\n  \"gender\": \"Male\",\n  \"contact\": \"9843332210\",\n  \"address\": \"123, MG Road, New Delhi\"\n}\n"
+      },
+      "requestVariables": [],
+      "responses": {}
+    },
+    {
+      "v": "14",
+      "name": "add bulk student",
+      "method": "POST",
+      "endpoint": "http://localhost:3000/admin/add-bulk-student",
+      "params": [
+        {
+          "key": "token",
+          "value": "686f771199cf3c944022dafebb783203eda8542aac05ab3d2ad8b62858ce13f85d8e07d98021d420dec4ff03",
+          "active": true,
+          "description": ""
+        }
+      ],
+      "headers": [],
+      "preRequestScript": "",
+      "testScript": "",
+      "auth": {
+        "authType": "inherit",
+        "authActive": true
+      },
+      "body": {
+        "contentType": "multipart/form-data",
+        "body": [
+          {
+            "key": "file",
+            "value": [
+              {}
+            ],
+            "active": true,
+            "isFile": true
+          }
+        ]
+      },
+      "requestVariables": [],
+      "responses": {}
+    },
+    {
+      "v": "14",
+      "endpoint": "http://localhost:3000/faculty/login",
+      "name": "faculty login",
+      "params": [],
+      "headers": [],
+      "method": "POST",
+      "auth": {
+        "authType": "inherit",
+        "authActive": true
+      },
+      "preRequestScript": "",
+      "testScript": "",
+      "body": {
+        "contentType": "application/json",
+        "body": "{\n  \"email\":\"satyasingh159357@gmail.com\",\n  \"password\":\"QLXx8$Cm\"\n}"
+      },
+      "requestVariables": [],
+      "responses": {}
+    }
+  ],
+  "headers": [],
+  "auth": {
+    "authType": "none",
+    "authActive": true
+  },
+  "_ref_id": "coll_me3qm7s8_2275f9d7-6b3a-4662-b445-d352075da4fd"
+}
